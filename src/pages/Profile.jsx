@@ -4,7 +4,6 @@ import { updateDoc, doc } from 'firebase/firestore'
 import { db } from '../firebase.config'
 import { useNavigate, Link } from 'react-router-dom'
 import { toast } from 'react-toastify'
-import { async } from '@firebase/util'
 
 function Profile() {
   const auth = getAuth()
